@@ -24,6 +24,7 @@ class Date:
             resultado == True
 
         #if (year % 4 == 0 and year % 100 != 0: or (year % 400 == 0):
+        print
 
         return resultado
 
@@ -71,3 +72,7 @@ class Date:
 
     def __eq__(self, other) -> bool:
         ...
+
+if __name__ == "__main__":
+    pass
+    #Aquí va un código de prueba
