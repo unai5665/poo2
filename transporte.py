@@ -8,7 +8,7 @@ def desplazar(x:int, y:int = 0) -> None:
 
 
 def informacion(self) -> None:
-    ("Ruedas: ")
+    ("Ruedas: ", self.ruedas, " Asientos: ", self.asientos)
 
 
 
